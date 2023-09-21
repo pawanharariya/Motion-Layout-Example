@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MotionLayoutExample"
         tools:targetApi="31">
         <activity
+            android:name=".AnimationOneActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
