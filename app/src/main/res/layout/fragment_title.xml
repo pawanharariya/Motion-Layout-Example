@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingHorizontal="16dp"
     android:paddingVertical="32dp"
     tools:context=".MainActivity">
@@ -12,4 +13,34 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Animation 1" />
+
+    <Button
+        android:id="@+id/animation_two_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animation 2" />
+
+    <Button
+        android:id="@+id/animation_three_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animation 3" />
+
+    <Button
+        android:id="@+id/animation_four_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animation 4" />
+
+    <Button
+        android:id="@+id/animation_five_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animation 5" />
+
+    <Button
+        android:id="@+id/animation_six_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animation 6" />
 </LinearLayout>

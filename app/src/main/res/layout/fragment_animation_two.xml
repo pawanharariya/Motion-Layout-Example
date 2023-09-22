@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_margin="64dp"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/animation_two">
+
+    <ImageView
+        android:id="@+id/left_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/star"
+        app:srcCompat="@drawable/ic_star"
+        app:tint="#FFFF00" />
+
+    <ImageView
+        android:id="@+id/red_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/star"
+        app:srcCompat="@drawable/ic_star"
+        app:tint="#FF0000" />
+
+    <ImageView
+        android:id="@+id/right_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/star"
+        app:srcCompat="@drawable/ic_star"
+        app:tint="#FFFF00" />
+</androidx.constraintlayout.motion.widget.MotionLayout>

@@ -4,6 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_nav_graph"
     app:startDestination="@id/titleFragment">
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.example.motionlayoutexample.TitleFragment"
+        android:label="TitleFragment"
+        tools:layout="@layout/fragment_title">
+        <action
+            android:id="@+id/action_titleFragment_to_animationOneFragment"
+            app:destination="@id/animationOneFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_animationTwoFragment"
+            app:destination="@id/animationTwoFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/animationOneFragment"
@@ -11,12 +23,8 @@
         android:label="AnimationOneFragment"
         tools:layout="@layout/fragment_animation_one" />
     <fragment
-        android:id="@+id/titleFragment"
-        android:name="com.example.motionlayoutexample.TitleFragment"
-        android:label="TitleFragment"
-        tools:layout="@layout/fragment_title" >
-        <action
-            android:id="@+id/action_titleFragment_to_animationOneFragment"
-            app:destination="@id/animationOneFragment" />
-    </fragment>
+        android:id="@+id/animationTwoFragment"
+        android:name="com.example.motionlayoutexample.AnimationTwoFragment"
+        android:label="AnimationTwoFragment"
+        tools:layout="@layout/fragment_animation_two" />
 </navigation>
