@@ -6,7 +6,7 @@
         app:constraintSetEnd="@+id/end"
         app:duration="2000">
         <OnClick
-            app:targetId="@id/red_star"
+            app:targetId="@id/root_view"
             app:clickAction="toggle" />
     </Transition>
 
