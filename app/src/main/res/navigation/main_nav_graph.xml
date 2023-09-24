@@ -15,6 +15,9 @@
         <action
             android:id="@+id/action_titleFragment_to_animationTwoFragment"
             app:destination="@id/animationTwoFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_animationThreeFragment"
+            app:destination="@id/animationThreeFragment" />
     </fragment>
 
     <fragment
@@ -27,4 +30,9 @@
         android:name="com.example.motionlayoutexample.AnimationTwoFragment"
         android:label="AnimationTwoFragment"
         tools:layout="@layout/fragment_animation_two" />
+    <fragment
+        android:id="@+id/animationThreeFragment"
+        android:name="com.example.motionlayoutexample.AnimationThreeFragment"
+        tools:layout="@layout/fragment_animation_three"
+        android:label="AnimationThreeFragment" />
 </navigation>

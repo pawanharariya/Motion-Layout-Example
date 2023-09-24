@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Motion Layout Example</string>
     <string name="star">Star</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="moon">Moon</string>
+    <string name="instruction">
+        Click on the moon to start animation</string>
 </resources>

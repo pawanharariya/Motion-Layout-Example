@@ -35,7 +35,7 @@ class TitleFragment : Fragment() {
             navigate(R.id.action_titleFragment_to_animationTwoFragment)
         }
         animationThreeButton.setOnClickListener {
-            navigate(R.id.action_titleFragment_to_animationOneFragment)
+            navigate(R.id.action_titleFragment_to_animationThreeFragment)
         }
         animationFourButton.setOnClickListener {
             navigate(R.id.action_titleFragment_to_animationOneFragment)
