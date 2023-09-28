@@ -13,8 +13,6 @@ class TitleFragment : Fragment() {
     private lateinit var animationTwoButton: Button
     private lateinit var animationThreeButton: Button
     private lateinit var animationFourButton: Button
-    private lateinit var animationFiveButton: Button
-    private lateinit var animationSixButton: Button
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
@@ -25,8 +23,6 @@ class TitleFragment : Fragment() {
         animationTwoButton = root.findViewById(R.id.animation_two_button)
         animationThreeButton = root.findViewById(R.id.animation_three_button)
         animationFourButton = root.findViewById(R.id.animation_four_button)
-        animationFiveButton = root.findViewById(R.id.animation_five_button)
-        animationSixButton = root.findViewById(R.id.animation_six_button)
 
         animationOneButton.setOnClickListener {
             navigate(R.id.action_titleFragment_to_animationOneFragment)
@@ -38,13 +34,7 @@ class TitleFragment : Fragment() {
             navigate(R.id.action_titleFragment_to_animationThreeFragment)
         }
         animationFourButton.setOnClickListener {
-            navigate(R.id.action_titleFragment_to_animationOneFragment)
-        }
-        animationFiveButton.setOnClickListener {
-            navigate(R.id.action_titleFragment_to_animationOneFragment)
-        }
-        animationSixButton.setOnClickListener {
-            navigate(R.id.action_titleFragment_to_animationOneFragment)
+            navigate(R.id.action_titleFragment_to_animationFourFragment)
         }
         return root
     }

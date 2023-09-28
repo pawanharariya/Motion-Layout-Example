@@ -18,6 +18,9 @@
         <action
             android:id="@+id/action_titleFragment_to_animationThreeFragment"
             app:destination="@id/animationThreeFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_animationFourFragment"
+            app:destination="@id/animationFourFragment" />
     </fragment>
 
     <fragment
@@ -33,6 +36,11 @@
     <fragment
         android:id="@+id/animationThreeFragment"
         android:name="com.example.motionlayoutexample.AnimationThreeFragment"
-        tools:layout="@layout/fragment_animation_three"
-        android:label="AnimationThreeFragment" />
+        android:label="AnimationThreeFragment"
+        tools:layout="@layout/fragment_animation_three" />
+    <fragment
+        android:id="@+id/animationFourFragment"
+        android:name="com.example.motionlayoutexample.AnimationFourFragment"
+        android:label="AnimationFourFragment"
+        tools:layout="@layout/fragment_animation_four" />
 </navigation>
