@@ -4,9 +4,9 @@ The app has four different animations created using MotionLayout.
 
 ## App Preview ##
 
-<img src="./Screenshots/animation_one.gif" width=220 > <img src="./Screenshots/animation_two.gif" width=220 >
-<img src="./Screenshots/animation_three.gif" width=220 >
-<img src="./Screenshots/animation_four.gif" width=220 >
+<img src="./Screenshots/animation_one.gif" width=200 alt="Preview of first animation"> <img src="./Screenshots/animation_two.gif" width=200  alt="Preview of second animation">
+<img src="./Screenshots/animation_three.gif" width=200 alt="Preview of third animation">
+<img src="./Screenshots/animation_four.gif" width=200 alt="Preview of fourth animation">
 
 ## Motion Layout ##
 
@@ -83,9 +83,9 @@ specified.
 
 3. The `motionDebug` attribute of `MotionLayout` shows path and debugging information
    in `MotionLayout`.
-   - Circles - represent the start or end position of one view
-   - Lines - represent the path of one view
-   - Diamonds - represent a KeyPosition that modifies the path.
+    - Circles - represent the start or end position of one view
+    - Lines - represent the path of one view
+    - Diamonds - represent a KeyPosition that modifies the path.
 
 4. The `touchAnchorSide` passed to `OnSwipe` must progress in a single direction through the entire
    animation.
